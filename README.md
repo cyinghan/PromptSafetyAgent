@@ -31,6 +31,9 @@ Similarly, the xTRam1___safe-guard-prompt-injection would have to be downloaded 
 # Clone the repository
 git clone https://github.com/cyinghan/prompt-safety-agent.git
 
+# Move the separately downloaded model files and dataset to the their corresponding models and data folders
+
+
 # Navigate to project directory
 cd prompt-safety-agent
 
