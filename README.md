@@ -28,6 +28,8 @@ The system processes prompts through a carefully designed multi-stage approach:
 The model weights (pretrained Phi-2 and finetuned DistilBERT) are included in the download.
 Hence, the download will take up some time.
 
+Note that since the pretrained Phi-2 and finetuned DistilBERT are large files, they have to be separately downloaded and moved into the models folder.
+
 ```bash
 # Clone the repository
 git clone https://github.com/cyinghan/prompt-safety-agent.git

@@ -8,7 +8,6 @@ from text_funcs import *
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_DIR = os.path.join(os.path.dirname(SCRIPT_DIR), "models")
 DATA_DIR = os.path.join(os.path.dirname(SCRIPT_DIR), "data")
-SAVED_ANALYSIS_DIR = os.path.join(os.path.dirname(SCRIPT_DIR), "saved_analysis")
 VALIDATION_SPLIT = 0.05
 SEED = 123
 

@@ -117,7 +117,7 @@ if __name__ == "__main__":
     print("DistilBERT Classification Report:\n", classification_report(cleaned_dataset["test"]["label"], sliding_y_preds, target_names=["negative", "positive"]))
 
     # Fetch saved results
-    result_df = pd.read_csv(os.path.join(SAVED_ANALYSIS_DIR, "results.csv"))
+    result_df = pd.read_csv(os.path.join(DATA_DIR, "results.csv"))
     result_df[result_df["confidence"] < 0.6][['ground_truth', 'label', 'confidence', 'prompt']]
 
     # Plot confidence distribution
