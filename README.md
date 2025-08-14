@@ -29,7 +29,7 @@ The model weights (pretrained Phi-2 and finetuned DistilBERT) are included in th
 Hence, the download will take up some time.
 
 Note that since the pretrained Phi-2 and finetuned DistilBERT are large files, they have to be separately downloaded and moved into the models folder.
-
+Similarly, the xTRam1___safe-guard-prompt-injection would have to be downloaded into the data to run evaluate.py.
 ```bash
 # Clone the repository
 git clone https://github.com/cyinghan/prompt-safety-agent.git
