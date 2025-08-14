@@ -1,0 +1,20 @@
+accelerate==1.10.0
+aiohttp==3.12.15
+brotlicffi==1.0.9.2
+docopt==0.6.2
+evaluate==0.4.5
+ipython_pygments_lexers==1.1.1
+matplotlib==3.10.5
+notebook==7.4.4
+pip==25.1
+protobuf==6.31.1
+PySocks==1.7.1
+scikit-learn==1.7.1
+spacy==3.8.7
+tinycss2==1.4.0
+transformers==4.55.0
+wheel==0.45.1
+yarg==0.1.9
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch
+torchvision
